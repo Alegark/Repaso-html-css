@@ -1,0 +1,85 @@
+html {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #0b0655;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CSS del menu */
+nav {
+    background-color: #0b0655;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* login */
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(128, 126, 126, 0.938);
+    border-radius: 10px;
+}
+
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.contenedor .elemento label{
+    color: rgb(255, 255, 255); 
+}
+
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-bottom: white;
+    margin-bottom: 30px;
+}
+
+.contenedor .elemento input[type="submit"]{
+    background-color: #0b0655;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+}

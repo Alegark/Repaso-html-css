@@ -7,16 +7,24 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="contenedor"></div>
+    <nav>
+        <ul>
+            <li class="menu"><a href="../index.html">Inicio</a></li>
+            <li class="menu"><a href="./login.html">Login ejemplo</a></li>
+            <li class="menu"><a href="paginas/foro.html">Foro ejemplo</a></li>
+            <li class="menu"><a href="paginas/contacto.html">Pagina Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="contenedor">
         <h2>Login</h2>
         <form id="forma" name="forma" method="post">
-            <div class="elemto">
+            <div class="elemento">
                 <label for="usuario">Usuario:</label>
                 <input type="text" id="usuario" name="usuario" required>
             </div>
             <div class="elemento">
                 <label for="password">Password:</label>
-                <input type="text" id="password" name="password" required>
+                <input type="password" id="password" name="password" required>
             </div>
             <div class="elemento">
                 <input type="submit" value="Enviar">
